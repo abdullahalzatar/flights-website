@@ -161,7 +161,7 @@ fetchData();
       let htmlSegment = `<li>
                         <div class="detailsCard">
                             <div class="flightInfo">
-                                <div class="airline"><img src="../assets/images/emirates.png" alt=""></div>
+                                <div class="airline"><img src="../assets/images/Delta-Logo.png" alt=""></div>
                                 <div class="time">
                                     <div>
                                         <h4>${flight.departure.scheduledTimeLocal.toString().slice(11,16)} - ${flight.arrival.scheduledTimeLocal.toString().slice(11,16)}</h4>
